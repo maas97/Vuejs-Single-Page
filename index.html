@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -48,7 +49,7 @@
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" dir="rtl">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand" href="#" aria-label="navbar-brand"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,7 +62,7 @@
               <a class="nav-link" href="#">خدماتنا</a>
             </div>
           </div>
-          <button class="btn btn-sm lang btn-outline-secondary" type="button"> EN  <img src="./Assets/fluent-mdl2_world.svg" alt="lang"></button>
+          <button class="btn btn-sm lang btn-secondary" type="button"> EN  <img src="./Assets/fluent-mdl2_world.svg" alt="lang"></button>
 
         </div>
       </nav>
@@ -89,9 +90,11 @@
             <div class="contentHero">
                 <span id="topContentHero">ذكاء الدولية توفر لك....</span>
                 <div id="centerContentHero">
-                    <li>البرمجة</li>
-                    <li>التطبيق</li>
-                    <li>التطوير</li>
+                    <ul>
+                        <li>البرمجة</li>
+                        <li>التطبيق</li>
+                        <li>التطوير</li>
+                    </ul>
                 </div>
                 <div id="bottomContentHero">نقدم لك جميع خدمات المواقع الإلكترونية وتطبيقات الموبايل وبرامج إدارة المؤسسات 
                     وكل الحلول التقنية الذكية التي تحتاجها في إنشاء وتطوير أعمالك لتنقل أعمالك للمستقبل وتواكب تقنيات الذكاء الاصطناعي
@@ -395,7 +398,7 @@
                 <p class="mailFooter">ادخل بريدك الإلكتروني ليصلك كل جديد</p>
                 <div class="mailInput">
                     <input class="form-control" type="search" placeholder=" البريد الإلكتروني" aria-label="Search">
-                    <button class="" type="submit"></button>
+                    <button class="searchMail" type="submit" aria-label="searchMail"></button>
                 </div>
                 <div class="socials">
                     <img class="d-block socialIcon" src="./Assets/typcn_social-facebook.svg" alt="square">

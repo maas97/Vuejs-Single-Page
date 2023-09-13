@@ -37,7 +37,7 @@
     width: 100%;
     height: 15%;
     /* border: solid 2px green; */
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@
 
 .mailFooter{
     /* border: red 1px solid; */
-    font-size: 0.7rem; 
+    font-size: 0.75rem; 
 }
 
 .mailInput{
@@ -87,7 +87,7 @@
 
 .mailInput input{
     width: 85%;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     height: 20%;
 }
 
@@ -120,6 +120,6 @@
 }
 
 .copyrights{
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: white;
 }
