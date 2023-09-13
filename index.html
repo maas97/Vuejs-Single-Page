@@ -1,0 +1,418 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thakaa Task</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A task for Thakaa Company using HTML,CSS, JS & a little bit of Vue.js">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="./Assets/logo thakaa.png">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link href="https://fastly.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./hero-header.css">
+    <link rel="stylesheet" href="./aboutUs.css">
+    <link rel="stylesheet" href="./competitions.css">
+    <link rel="stylesheet" href="./ourServices.css">
+    <link rel="stylesheet" href="./ourProducts.css">
+    <link rel="stylesheet" href="./subscribe.css">
+    <link rel="stylesheet" href="./jobs.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./fontawesome.min.css">
+    <link rel="stylesheet" href="./animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+Arabic:wght@200;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            direction: rtl;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Noto Sans Arabic', sans-serif;        
+}
+        :root{
+            --primary-color: #00ABAD; 
+            --secondary-color: #09B9E1; 
+            --accent-color: #28649C;
+            --background-color: #CCEEEF; 
+        }
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(172, 250, 250);">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" dir="rtl">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+              <a class="nav-link" href="#">من نحن</a>
+              <a class="nav-link" href="#">خدماتنا</a>
+              <a class="nav-link" href="#">تواصل معنا</a>
+              <a class="nav-link" href="#">خدماتنا</a>
+            </div>
+          </div>
+          <button class="btn btn-sm lang btn-outline-secondary" type="button"> EN  <img src="./Assets/fluent-mdl2_world.svg" alt="lang"></button>
+
+        </div>
+      </nav>
+
+      <!-- hero start -->
+      <div class="container-fluid-xxl overlay w-100 position-relative mb-sm-0 p-0">
+
+        <div class="container-fluid-xxl w-100  hero-header" style="background-color: bisque;">
+        
+            <div id="carouselHeroHeader " class="carousel slide" data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Assets/Pic1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/Pic2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/Pic3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                
+            </div>
+            <div class="contentHero">
+                <span id="topContentHero">ذكاء الدولية توفر لك....</span>
+                <div id="centerContentHero">
+                    <li>البرمجة</li>
+                    <li>التطبيق</li>
+                    <li>التطوير</li>
+                </div>
+                <div id="bottomContentHero">نقدم لك جميع خدمات المواقع الإلكترونية وتطبيقات الموبايل وبرامج إدارة المؤسسات 
+                    وكل الحلول التقنية الذكية التي تحتاجها في إنشاء وتطوير أعمالك لتنقل أعمالك للمستقبل وتواكب تقنيات الذكاء الاصطناعي
+                </div>
+                <button>تواصل معنا</button>
+            </div>  
+
+        </div>
+
+      </div>
+
+      <!-- about us -->
+      <div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+        <div class="container-fluid-xxl w-100 about-us">
+        
+            <div id="aboutUsText">
+                <h2>من نحن</h2>
+                <p>بدأت رحلتنا في <<ذكاء الدولية>> باتجاه التطور والاكتشاف. لنقود الأفكار نحو التطور وتوليد الفرص.
+                وتساهم في وضع حلول ابتكارية للتعامل مع التحديات في مجال التقنية والريادة لتطوير الخدمات وتحسين الإجراءات.
+                عبر تقديم عدد من الخدمات المبتكرة والحلول التقنية المتكاملة, لصناعة التحول فيأداء القطاعين العام والخاص والمساهمة
+                في رفع مستوى الخدمات بإستخدام تقنية المعلومات
+                </p>
+                <button>معرفة المزيد</button>
+            </div>
+            <div id="aboutUsPhoto">
+                <img src="./Assets/Pic4.jpg" alt="">
+            </div>
+
+        </div>
+
+      </div>
+
+      <!-- competitions -->
+
+      <div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+        <div class="container-fluid-xxl w-100 competitions" >
+        
+
+           <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <p class="competitionHeader">كيف نعمل ؟</p>
+            <div class="carousel-inner competitionCarouselInner">
+              <div class="carousel-item competitionCarouselItem active" data-bs-interval="4000">
+                <div class="competitionCarouselCaption carousel-caption animate__animated animate__bounceInUp">
+                    <h2>1. الحصول على المعلومات</h2>
+                    <p>نحن لا ننظر فقط إلى البيانات. نحن نبحث عن المعلومات التي
+                        تقود التحليل والرؤي , والتي تمكننا من اكتساب فهم أفضل للأفراد
+                        والصناعة والأسواق ، وبالتالي تساعدنا على رسم طريق أفضل لتحقيق نتائج أفضل
+                    </p>
+                </div>
+                <img src="./Assets/image 20.png" class="d-block competitionCarouselImg animate__animated animate__fadeInBottomRight" alt="...">
+
+              </div>
+              <div class="carousel-item competitionCarouselItem " data-bs-interval="4000">
+                <div class="competitionCarouselCaption carousel-caption  animate__animated animate__bounceInUp ">
+                    <h2>  2. التفكير في التصميم</h2>
+                    <p>
+                        يساعدنا العصف الذهني في التفكير التصميمي على تحدي الافتراضات والتوصل إلى أفكار مبتكرة ومبدعة.
+                    </p>
+                </div>
+                <img src="./Assets/image 22.png" class="d-block competitionCarouselImg animate__animated animate__fadeInBottomRight " alt="...">
+              </div>
+              <div class="carousel-item competitionCarouselItem " data-bs-interval="4000">
+                <div class="competitionCarouselCaption carousel-caption animate__animated animate__bounceInUp ">
+                    <h2>  3. الإبداع أولا</h2>
+                    <p>
+                        نضع حلول التحول الفكرة الإبداعية لدينا في مركز المحتوى الخاص بنا , بغض لانظر عن التنسيق أو الوسائط وهذا
+                        من أحل الحصول على أفكار إبداعية في البداية.
+                    </p>
+                </div>
+                <img src="./Assets/image 21.png" class="d-block competitionCarouselImg animate__animated animate__fadeInBottomRight" alt="...">
+              </div>
+              <div class="carousel-item competitionCarouselItem " data-bs-interval="2000">
+                <div class="competitionCarouselCaption carousel-caption animate__animated  animate__bounceOutDown animate__delay-2s ">
+                    <h2>  4. البرمجة والتطوير</h2>
+                    <p>
+                        نحن لا نكتفي بأخذ موجز وتقديمه. نحن نعمل مع عملائنا لإيجاد حلول برمجية
+                        متطورة قائمة على المحتوى لأهداف أو قضايا العمل. نحن نعمل كشركاء،
+                        وفي معظم الحالات، تكون حلولنا عصرية ومنتجة.
+                    </p>
+                </div>
+                <img src="./Assets/image 19.png" class="d-block competitionCarouselImg animate__animated animate__fadeOutBottomRight animate__delay-2s" alt="...">
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span aria-hidden="true" style="background-image: url(./Assets/arrow.svg); background-size: contain; width: 50px; height: 50px;"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- our services -->
+      <div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+        <div class="container-fluid-xxl w-100 our-services" >
+        
+            <div id="ourServicesText">
+                <h2>خدماتنا </h2>
+                <p>
+                    نساعد عملائنا على تبسيط أعمالهم من خلال مجموع الحلول والخدمات والتطبيقات التي تساعد
+                    على تسهيل سير وتكامل الأعمال بالإضافة إلى الدعم التقني والمتابعة المستمرة.
+                </p>
+                <button>عرض المزيد</button>
+            </div>
+            <div id="ourServicesAccordion">
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button firstButton" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                            حلول تقنية متكاملة
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            ننشئ ونطور الحلول التقنية للشركات والمؤسسات في المراحل المختلفة بداية من الإنشاء
+                            حتى الانطلاق بالإضافة للدعم التقني والمتابعة المستمرة
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button secondButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            تسويق وتطوير الأعمال
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            نوفر لك كافة وسائل التسويق الالكتروني ونعمل لك عليها، لتسويق أعمال منتجاتك
+                            ونشر هويتك لأكبر قدر ممكن من العملاء المحتملين.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button thirdButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          الدراسات والاستشارات
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            تواصل مع طاقمنا الاستئاري للحصول على خدمات استشارية في المجالات التقنية والإدارية تدعم نمو أعمالك.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button forthButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            تدريب وتأهيل
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            نهدف في ذكاء الدولية إلى تطوير أداء المؤسسات ورفع مهارة الأفراد من خلال إعداد البرامج
+                            التدريبية التي توفر الأدوات اللازمة لزيادة الخبرات والمهارات.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+            </div>
+
+
+        </div>
+
+      </div>
+
+<!-- our products -->
+    <div id="product" class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+        <div class="container-fluid-xxl w-100 our-products">
+    
+            <div id="ourProductText">
+                <h2>نوفر حلول تقنية</h2>
+                <p>يمكننا مساعدتك في تخطيط وتصميم وتطوير أي نوع من المنتجات الرقمية</p>
+            </div>
+
+            <div class="productCards">
+                <div class="cards card1" @mouseenter="showDescriptionOne" @mouseLeave="showCoverOne">
+                    <img v-if="isOneCardCoverVisible" src="./Assets/icon-park-outline_code-laptop.svg" class="d-block animate__animated animate__fadeInBottomLeft" alt="">
+                    <p v-if="isOneCardCoverVisible" class="animate__animated animate__fadeInBottomLeft">حلول تطوير البرمجيات</p>
+                    <span  v-if='isOneDescriptionVisible' class="cardDescription animate__animated animate__fadeInBottomLeft"> {{content1}} </span>
+                </div>
+                <div class="cards card2" @mouseenter="showDescriptionTwo" @mouseLeave="showCoverTwo">
+                    <img v-if="isTwoCardCoverVisible" class="animate__animated animate__fadeInBottomLeft" src="./Assets/icon-park-outline_collect-laptop.svg" class="d-block" alt="">
+                    <p v-if="isTwoCardCoverVisible" class="animate__animated animate__fadeInBottomLeft" >  التحليل ودراسة تجربة المستخدم</p>
+                    <span  v-if='isTwoDescriptionVisible' class="cardDescription animate__animated animate__fadeInBottomLeft"> {{content2}} </span>
+                </div>
+                <div class="cards card3" @mouseenter="showDescriptionThree" @mouseLeave="showCoverThree">
+                    <img v-if="isThreeCardCoverVisible"  class="animate__animated animate__fadeInBottomLeft" src="./Assets/uil_laptop-cloud.svg" class="d-block" alt="">
+                    <p v-if="isThreeCardCoverVisible"  class="animate__animated animate__fadeInBottomLeft">الاستضافة السحابية</p>
+                    <span  v-if='isThreeDescriptionVisible' class="cardDescription animate__animated animate__fadeInBottomLeft"> {{content3}} </span>
+                </div>
+                <div class="cards card4" @mouseenter="showDescriptionFour" @mouseLeave="showCoverFour">
+                    <img  v-if='isFourCardCoverVisible'  class="animate__animated animate__fadeInBottomLeft" src="./Assets/fluent_laptop-shield-20-regular.svg" class="d-block" alt="">
+                    <p v-if='isFourCardCoverVisible'  class="animate__animated animate__fadeInBottomLeft">حلول الأمن السيبراني</p>
+                    <span  v-if='isFourDescriptionVisible' class="cardDescription animate__animated animate__fadeInBottomLeft"> {{content4}} </span>
+                </div>
+            </div>
+        </div>
+
+  </div>
+
+  <!-- jobs -->
+  <div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+    <div class="container-fluid-xxl w-100 jobs" id="job">
+
+
+        <video autoplay loop muted playsinline>
+            <source src="./Assets/join us section 2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="joinUs">
+            <h2>انضم إلينا</h2>
+            <p>دعونا نبني أشياء عظيمة معا</p>
+            <button>تعرف على الوظائف المتاحة</button>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- subscribe -->
+
+<div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+    <div class="container-fluid-xxl w-100 subscribe">
+    
+       <div class="subscribeText">
+        <h2>اشترك ليصلك إشعار!</h2>
+        <p>قم بالتسجيل بالنشرة البريدية لتلقي التحديثات والأخبار الجديدة.</p>
+        <div class="w-100 d-flex justify-content-center">
+            <form class="d-flex" role="search">
+                <input class="form-control search" type="search" placeholder="ادخل بريدك الإلكتروني" aria-label="Search">
+                <button type="submit">اشترك</button>
+            </form>
+        </div>
+       </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid-xxl w-100 position-relative mb-sm-0 p-0">
+
+    <div class="container-fluid-xxl w-100 footer">
+        <div class="footerContainer">
+            <div class="footerCol1 footerCol">
+                <img src="./Assets/logo thakaa.png" class="d-block" alt="logo">
+                <p>ذكاء الدولية - مصر </p>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/carbon_phone-filled.svg" alt="phone">
+                    <span class="d-block footerText">01558075795</span>
+                </div>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/fluent_location-28-filled.svg" alt="location">
+                    <span class="d-block footerText">القاهرة-مدينة بدر-الحي الثاني</span>
+                </div>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/ic_baseline-mail.svg" alt="mail">
+                    <span class="d-block footerText">hr@thaka.sa</span>
+                </div>
+            </div>
+            <div class="footerCol2 footerCol">
+                <h2>القائمة</h2>
+                <a href="#" class="rowFooter mb-2">الرئيسية</a>
+                <a href="#aboutUsText" class="rowFooter mb-2">من نحن</a>
+                <a href="#ourProductText" class="rowFooter mb-2">الخدمات</a>
+                <a href="#job" class="rowFooter mb-2">وظائف</a>
+            </div>
+            <div class="footerCol3 footerCol">
+                <h2>الخدمات</h2>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/solar_code-square-bold.svg" alt="square">
+                    <span class="d-block footerText">حلول تقنية متكاملة</span>
+                </div>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/solar_code-square-bold.svg" alt="square">
+                    <span class="d-block footerText">تسويق وتطوير الأعمال</span>
+                </div>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/solar_code-square-bold.svg" alt="square">
+                    <span class="d-block footerText">تدريب وتأهيل</span>
+                </div>
+                <div class="rowFooter mb-2">
+                    <img class="d-block icon" src="./Assets/solar_code-square-bold.svg" alt="square">
+                    <span class="d-block footerText"> الدراسات والإستشارات</span>
+                </div>
+            </div>
+            <div class="footerCol4 footerCol">
+                <h2>آخر الأخبار</h2>
+                <p class="mailFooter">ادخل بريدك الإلكتروني ليصلك كل جديد</p>
+                <div class="mailInput">
+                    <input class="form-control" type="search" placeholder=" البريد الإلكتروني" aria-label="Search">
+                    <button class="" type="submit"></button>
+                </div>
+                <div class="socials">
+                    <img class="d-block socialIcon" src="./Assets/typcn_social-facebook.svg" alt="square">
+                    <img class="d-block socialIcon" src="./Assets/mdi_twitter.svg" alt="square">
+                    <img class="d-block socialIcon" src="./Assets/basil_instagram-solid.svg" alt="square">
+                    <img class="d-block socialIcon" src="./Assets/ri_linkedin-fill.svg" alt="square">
+                </div>
+            </div>
+        </div>
+        <span class="p-2 copyrights">جميع الحقوق محفوظه لدى ذكاء الدولية 2023 &copy;</span>
+
+    </div>
+
+  </div>
+
+    <script defer src="https://fastly.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./ourProducts.js"></script>
+    <script src="./accordion.js"></script>
+</body>
+</html>

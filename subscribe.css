@@ -1,0 +1,61 @@
+.subscribe {
+    background: rgb(9,185,225);
+    background: linear-gradient(58deg, rgba(9,185,225,1) 13%, rgba(0,171,173,1) 58%);   
+    height: 40vh;
+}
+
+.subscribeText{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid yellow; */
+
+}
+
+.subscribeText h2{
+    font-size: 1rem;
+}
+
+.subscribeText p{
+    font-size: 0.8rem;
+}
+
+.subscribeText button{
+    width: 30%;
+    height: 90%;
+    margin-right: 15px;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.subscribeText button:hover{
+    background-color: white;
+    color: var(--accent-color);
+}
+
+.subscribeText form{
+width: 35%;
+/* border: 1px solid yellow; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search{
+    font-size: 0.6rem;
+    height: 90%;
+}

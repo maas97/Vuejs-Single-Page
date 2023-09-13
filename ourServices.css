@@ -1,0 +1,178 @@
+.our-services{
+    background-color: rgb(255, 255, 255);
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#ourServicesText{
+    /* border: 5px solid yellow; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#ourServicesText h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+#ourServicesText p{
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+#ourServicesText button{
+    width: 30%;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color:white;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+#ourServicesText button:hover{
+    background-color: white;
+    color:  var(--primary-color);
+}
+
+#ourServicesAccordion{
+    /* border: 5px solid green; */
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.accordion{
+    width: 75%;
+    border-right: 5px solid #D0D0D2;
+    border-top-right-radius: 5px;
+}
+
+.accordion-button::after{
+    position: absolute;
+    width: 30%;
+    height: 230%;
+    top: 0;
+    right: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+    background-image: url(./Assets/ph_users-three-fill.svg);
+    background-size: contain;
+    background-position: center;
+    transform: none;
+} */
+
+
+.firstButton:not(.collapsed) {
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.secondButton:not(.collapsed) {
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+.thirdButton:not(.collapsed) {
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.forthButton:not(.collapsed) {
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+
+.firstButton:not(.collapsed)::after {
+    background-image: url(./Assets/fa-solid_laptop-code.svg);
+    background-size: contain;
+    background-position: center;
+    transform: none;
+    padding-left: 3px;
+    border-left: solid 6px var(--primary-color);
+    border-top-left-radius: 5px;
+    border-start-end-radius: 5px;
+
+}
+
+.secondButton:not(.collapsed)::after {
+    background-image: url(./Assets/uil_chart-line.svg);
+    background-size: contain;
+    background-position: center;
+    transform: none;
+    padding: 3px;
+    border-left: solid 6px var(--primary-color);
+    border-top-left-radius: 5px;
+}
+
+.thirdButton:not(.collapsed)::after {
+    background-image: url(./Assets/ph_users-three-fill.svg);
+    background-size: contain;
+    background-position: center;
+    transform: none;
+    padding: 3px;
+    border-left: solid 6px var(--primary-color);
+    border-top-left-radius: 5px;
+
+}
+
+.forthButton:not(.collapsed)::after {
+    background-image: url(./Assets/icon-park-solid_every-user.svg);
+    background-size: contain;
+    background-position: center;
+    transform: none;
+    padding: 3px;
+    border-left: solid 6px var(--primary-color);
+    border-top-left-radius: 5px;
+
+}
+
+
+.accordion-item{
+    width: 100%;
+    border: none;
+
+}
+
+.accordion-button{
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
+
+.accordion-body{
+    font-size: 0.75rem;
+}

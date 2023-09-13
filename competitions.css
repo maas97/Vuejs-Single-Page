@@ -1,0 +1,71 @@
+.competitions{
+    background: rgb(9,185,225);
+    background: linear-gradient(58deg, rgba(9,185,225,1) 13%, rgba(0,171,173,1) 58%);    
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleInterval{
+    height: 100%;
+    width: 80%;
+    /* border: solid 5px yellow; */
+    position: relative;
+    padding: 10px;
+}
+
+.competitionHeader{
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    padding: 10px;
+    
+}
+
+.competitionCarouselInner{
+    /* border: solid 5px green; */
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    
+}
+
+.competitionCarouselItem::after{
+    opacity: 0;
+}
+.competitionCarouselItem{
+    position: relative;
+   
+}
+
+.competitionCarouselCaption{
+    width: 50%;
+    height: 60%;
+    /* border: solid 5px blue; */
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    text-align: right;
+   
+}
+
+.competitionCarouselCaption h2{
+    padding-right: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.competitionCarouselImg{
+    display: block;
+    /* border: solid 5px brown; */
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}

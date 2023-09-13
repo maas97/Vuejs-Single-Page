@@ -1,0 +1,72 @@
+nav{
+    height: 10vh;
+    position: sticky;
+    background-color: white;
+    
+}
+
+nav .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* border: solid 3px blueviolet; */
+
+}
+
+.navbar-nav{
+    /* border: solid 1px green; */
+    margin: 0px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container{
+    width: 100%;
+    /* border: solid 1px blue; */
+
+}
+
+.navbar-brand{
+    position: absolute;
+    background-image: url('./Assets/logo\ thakaa.png');
+    width: 10%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0%;
+    right: 5%;
+    /* border: solid 1px red; */
+}
+
+a.nav-link{
+    font-size: 0.8rem;
+}
+
+a.nav-link.active{
+    color: var(--primary-color) !important;
+    border-bottom: solid 3px var(--primary-color);
+    font-weight: bolder;
+}
+
+a.nav-link:hover{
+    color: var(--primary-color);
+}
+
+.lang{
+    /* width: ; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+
+.lang img{
+    width: 15px; 
+    height: 15px;
+    margin: 5px;
+}
